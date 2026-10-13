@@ -2,13 +2,13 @@
 
 ## Official
 
-### Stable — v3.0.0
+### Stable v3.0.0
 
 #### Windows
 
 | Package | Architecture / locale | Download |
 | :-- | :-- | :--: |
-| EXE | AMD64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.0.0/scrcpy-plus_3.0.0_amd64.exe) |
+| Portable EXE | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.0.0/scrcpy-plus_3.0.0_amd64.exe) |
 | Setup installer | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.0.0/scrcpy-plus_3.0.0_x64-setup.exe) |
 | MSI installer | x64, English (US) | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.0.0/scrcpy-plus_3.0.0_x64_en-US.msi) |
 
@@ -16,10 +16,10 @@
 
 | Package | Architecture | Download |
 | :-- | :-- | :--: |
-| RPM | x86_64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.0.0/scrcpy-plus-3.0.0-1.x86_64.rpm) |
-| Installer | AMD64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.0.0/scrcpy-plus-3.0.0.amd64.run) |
-| AppImage | AMD64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.0.0/scrcpy-plus_3.0.0_amd64.AppImage) |
-| Debian package | AMD64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.0.0/scrcpy-plus_3.0.0_amd64.deb) |
+| RPM | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.0.0/scrcpy-plus-3.0.0-1.x86_64.rpm) |
+| Installer | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.0.0/scrcpy-plus-3.0.0.amd64.run) |
+| AppImage | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.0.0/scrcpy-plus_3.0.0_amd64.AppImage) |
+| Debian package | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.0.0/scrcpy-plus_3.0.0_amd64.deb) |
 
 #### macOS
 
@@ -35,6 +35,8 @@
 | Source code (ZIP) | [Download](https://github.com/Frontesque/scrcpy-plus/archive/refs/tags/3.0.0.zip) |
 
 ## Unofficial Downloads
+
+### Legacy v2.2.2
 
 | Platform | Link | Command |
 | :-- | :--: | :-- |
