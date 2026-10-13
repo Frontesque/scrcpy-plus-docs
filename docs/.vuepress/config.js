@@ -8,7 +8,7 @@ export default defineUserConfig({
   description: 'The easiest SCRCPY GUI',
 
   theme: defaultTheme({
-    logo: 'https://raw.githubusercontent.com/Frontesque/scrcpy-plus/main/icons/SCRCPY%2B.png',
+    logo: 'https://raw.githubusercontent.com/Frontesque/scrcpy-plus/refs/heads/main/application/src-tauri/icons/Square150x150Logo.png',
 
     navbar: ['/', '/downloads', '/get-started'],
   }),
