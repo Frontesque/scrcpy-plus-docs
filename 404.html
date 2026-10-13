@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="generator" content="VuePress 2.0.0-rc.17" />
+    <meta name="generator" content="VuePress 2.0.0-rc.31" />
     <style>
       :root {
         --vp-c-bg: #fff;
@@ -19,25 +19,25 @@
       }
     </style>
     <script>
-      const userMode = localStorage.getItem('vuepress-color-scheme')
-      const systemDarkMode =
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
         'matchMedia' in window
           ? window.matchMedia('(prefers-color-scheme: dark)').matches
           : false
 
-      if (userMode === 'light') {
+      if (useChoice === 'light') {
         document.documentElement.dataset.theme = 'light'
-      } else if (userMode === 'dark' || systemDarkMode) {
+      } else if (useChoice === 'dark' || systemStatus) {
         document.documentElement.dataset.theme = 'dark'
       }
     </script>
     <title>SCRCPY+ Docs</title><meta name="description" content="The easiest SCRCPY GUI">
-    <link rel="preload" href="/assets/style-Cj22MYkn.css" as="style"><link rel="stylesheet" href="/assets/style-Cj22MYkn.css">
-    <link rel="modulepreload" href="/assets/app-BXdexcn7.js"><link rel="modulepreload" href="/assets/404.html-D6UNpTw6.js">
-    <link rel="prefetch" href="/assets/index.html-Dt4v-Qq1.js" as="script"><link rel="prefetch" href="/assets/downloads.html-Cy9TS4kW.js" as="script"><link rel="prefetch" href="/assets/get-started.html-C_g2YEY7.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-7MC2TMWH-BEJUcqMk.js" as="script">
+    <link rel="preload" href="/assets/style-DJsZWTjH.css" as="style"><link rel="stylesheet" href="/assets/style-DJsZWTjH.css">
+    <link rel="modulepreload" href="/assets/app-Bh-KCnpM.js"><link rel="modulepreload" href="/assets/404.html-nsGBLH8I.js">
+    
   </head>
   <body>
-    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-67c08c1d><main class="page" data-v-67c08c1d><div class="theme-default-content" vp-content data-v-67c08c1d><h1 data-v-67c08c1d>404</h1><blockquote data-v-67c08c1d>How did we get here?</blockquote><a class="route-link" href="/" data-v-67c08c1d>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
-    <script type="module" src="/assets/app-BXdexcn7.js" defer></script>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-3fac1c72><main class="page" data-v-3fac1c72><div vp-content data-v-3fac1c72><h1 data-v-3fac1c72>404</h1><blockquote data-v-3fac1c72>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-3fac1c72>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-Bh-KCnpM.js" defer></script>
   </body>
 </html>
