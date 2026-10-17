@@ -9,8 +9,8 @@
 | Package | Architecture / locale | Download |
 | :-- | :-- | :--: |
 | Portable EXE | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus.exe) |
-| Setup installer | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.1.0_x64-setup.exe) |
-| MSI installer | x64, English (US) | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.1.0_x64_en-US.msi) |
+| Setup installer | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.0.0_x64-setup.exe) |
+| MSI installer | x64, English (US) | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.0.0_x64_en-US.msi) |
 
 #### Linux
 
