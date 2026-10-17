@@ -19,7 +19,7 @@
 | RPM | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus-3.0.0-1.x86_64.rpm) |
 | Standalone | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus.exe) |
 | AppImage | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.0.0_amd64.AppImage) |
-| Debian package | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.1.0_amd64.deb) |
+| Debian package | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.0.0_amd64.deb) |
 
 #### macOS
 
