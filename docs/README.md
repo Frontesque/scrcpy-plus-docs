@@ -1,6 +1,6 @@
 ---
 home: true
-title: SCRCPY+ Help
+title: SCRCPY+ Docs
 heroImage: https://raw.githubusercontent.com/Frontesque/scrcpy-plus/refs/heads/main/application/src-tauri/icons/Square150x150Logo.png
 actions:
   - text: Get started

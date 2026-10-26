@@ -1,0 +1,13 @@
+:root {
+  --vp-c-accent: #8867c0;
+  --vp-c-accent-bg: #8867c0;
+  --vp-c-accent-hover: #7556ad;
+  --vp-c-accent-soft: rgb(136 103 192 / 14%);
+}
+
+[data-theme='dark'] {
+  --vp-c-accent: #8867c0;
+  --vp-c-accent-bg: #8867c0;
+  --vp-c-accent-hover: #7556ad;
+  --vp-c-accent-soft: rgb(136 103 192 / 16%);
+}
