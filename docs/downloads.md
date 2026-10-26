@@ -1,43 +1,11 @@
 # Downloads
 
-## Official
+Download SCRCPY+ from the [official GitHub Releases page](https://github.com/Frontesque/scrcpy-plus/releases/latest). Choose the package for your operating system from the release's **Assets** list. Available package formats and architectures can vary by release.
 
-### Stable v3.1.0
+For source code, use the source archives attached to a release or browse the [SCRCPY+ repository](https://github.com/Frontesque/scrcpy-plus).
 
-#### Windows
+After installing, see [Get Started](get-started.md) to connect a device and launch a session. SCRCPY+ can also download a compatible SCRCPY and ADB bundle from its Home screen or the SCRCPY versions page in Settings.
 
-| Package | Architecture / locale | Download |
-| :-- | :-- | :--: |
-| Portable EXE | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus.exe) |
-| Setup installer | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.1.0_x64-setup.exe) |
-| MSI installer | x64, English (US) | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.1.0_x64_en-US.msi) |
+## Unofficial packages
 
-#### Linux
-
-| Package | Architecture | Download |
-| :-- | :-- | :--: |
-| RPM | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus-3.1.0-1.x86_64.rpm) |
-| Standalone | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus.exe) |
-| AppImage | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.1.0_amd64.AppImage) |
-| Debian package | x64 | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.1.0_amd64.deb) |
-
-#### macOS
-
-| Package | Architecture | Download |
-| :-- | :-- | :--: |
-| Disk image (DMG) | Apple silicon (ARM64) | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.1.0_aarch64.dmg) |
-| Disk image (DMG) | Intel (x64) | [Download](https://github.com/Frontesque/scrcpy-plus/releases/download/3.1.0/scrcpy-plus_3.1.0_x64.dmg) |
-
-#### Source
-
-| Package | Download |
-| :-- | :--: |
-| Source code (ZIP) | [Download](https://github.com/Frontesque/scrcpy-plus/archive/refs/tags/3.1.0.zip) |
-
-## Unofficial Downloads
-
-### Legacy v2.2.2
-
-| Platform | Link | Command |
-| :-- | :--: | :-- |
-| 🪟 WinGet | [Winstall](https://winstall.app/apps/Frontesque.scrcpy+) | `winget install Frontesque.scrcpy+` |
+Unofficial third-party packages may lag behind official releases. For package availability, installation instructions, and support, refer to the package maintainer. The official releases page is the source of current SCRCPY+ downloads.

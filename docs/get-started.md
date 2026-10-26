@@ -1,46 +1,28 @@
 # Get Started
 
-This is a normal page, which contains VuePress basics.
+SCRCPY+ is a desktop interface for selecting an Android device, configuring a [scrcpy](https://github.com/Genymobile/scrcpy) session, and launching it. It uses Android Debug Bridge (ADB) to discover and connect to devices; scrcpy handles the screen and input session.
 
-## Pages
+## Before you begin
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
+- Install and open SCRCPY+ for your operating system.
+- Enable **USB debugging** on the Android device if you are connecting over USB.
+- Have ADB available. If SCRCPY+ reports that ADB is missing, choose **Download** on the Home screen to install the latest compatible SCRCPY bundle, which includes ADB.
 
-See [routing][] for more details.
+For USB connections, connect and unlock the device, then approve the USB debugging prompt shown on the phone. Keep the device connected while using SCRCPY+.
 
-## Content
+## Start a session
 
-Every markdown file [will be rendered to HTML, then converted to a Vue SFC][content].
+1. Open SCRCPY+ and wait for the device list to refresh. It checks ADB about every five seconds.
+2. Select a device by its serial. If only one device is detected, SCRCPY+ selects it automatically. With multiple devices, choose the right serial from the tabs.
+3. Review the device information and choose the [launch options](launch-options.md) you need.
+4. Select **Start SCRCPY**. The scrcpy window opens separately from the SCRCPY+ control window.
 
-VuePress support basic markdown syntax and [some extensions][synatex-extensions], you can also [use Vue features][vue-feature] in it.
+If the list is empty, check the cable and USB debugging state, or use [wireless setup](wireless-setup.md). If the device is marked **Unauthorized**, unlock it and accept the debugging authorization prompt.
 
-## Configuration
+## More help
 
-VuePress use a `.vuepress/config.js`(or .ts) file as [site configuration][config], you can use it to config your site.
-
-For [client side configuration][client-config], you can create `.vuepress/client.js`(or .ts).
-
-Meanwhile, you can also add configuration per page with [frontmatter][].
-
-## Layouts and customization
-
-Here are common configuration controlling layout of `@vuepress/theme-default`:
-
-- [navbar][]
-- [sidebar][]
-
-Check [default theme docs][default-theme] for full reference.
-
-You can [add extra style][style] with `.vuepress/styles/index.scss` file.
-
-[routing]: https://vuejs.press/guide/page.html#routing
-[content]: https://vuejs.press/guide/page.html#content
-[synatex-extensions]: https://vuejs.press/guide/markdown.html#syntax-extensions
-[vue-feature]: https://vuejs.press/guide/markdown.html#using-vue-in-markdown
-[config]: https://vuejs.press/guide/configuration.html#client-config-file
-[client-config]: https://vuejs.press/guide/configuration.html#client-config-file
-[frontmatter]: https://vuejs.press/guide/page.html#frontmatter
-[navbar]: https://vuejs.press/reference/default-theme/config.html#navbar
-[sidebar]: https://vuejs.press/reference/default-theme/config.html#sidebar
-[default-theme]: https://vuejs.press/reference/default-theme/
-[style]: https://vuejs.press/reference/default-theme/styles.html#style-file
+- [Devices and connections](devices-and-connections.md)
+- [Launch options](launch-options.md)
+- [Wireless setup](wireless-setup.md)
+- [Settings and SCRCPY versions](settings-and-versions.md)
+- [Troubleshooting](troubleshooting.md)
